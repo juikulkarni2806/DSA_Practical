@@ -9,13 +9,16 @@ max=a[0]
 smin=a[0]
 smax=a[0]
 for i in a:
+        
+
     if i<min:
-        smin=min
         min=i
+        smin=min
+    
 
     if i>max:
-        smax=max
-        max=i
+         smax=max
+         max=i
 print("smin= ",smin)
 print("min= ",min)
 print("smax= ",smax)
