@@ -58,7 +58,7 @@ class BST:
             print(rt.data, end=" ")
 
 b1=BST()
-b1.insert(Node(110))
+b1.insert(Node(11))
 b1.insert(Node(10))
 b1.insert(Node(45))
 b1.insert(Node(6))
