@@ -45,6 +45,17 @@ class BST:
             print(rt.data, end=" ")
             self.preorder(rt.left)
             self.preorder(rt.right)
+    
+    def postorder(self,rt):
+        
+        if rt is None:
+            return
+        else:
+            
+           
+            self.preorder(rt.left)
+            self.preorder(rt.right)
+            print(rt.data, end=" ")
 
 b1=BST()
 b1.insert(Node(110))
@@ -58,6 +69,9 @@ print("Inorder:")
 b1.inorder(b1.root)
 print("\nPreorder:")
 b1.preorder(b1.root)
+print("\nPostorder:")
+b1.postorder(b1.root)
+
 
 
 
