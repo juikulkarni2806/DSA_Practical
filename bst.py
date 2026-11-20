@@ -69,10 +69,10 @@ class BST:
 
 b1=BST()
 b1.insert(Node(11))
-b1.insert(Node(10))
+b1.insert(Node(1))
 b1.insert(Node(45))
 b1.insert(Node(24))
-b1.insert(Node(65))
+b1.insert(Node(105))
 b1.insert(Node(30))
 b1.insert(Node(15))
 print("Inorder:")
