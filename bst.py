@@ -62,6 +62,9 @@ class BST:
         while temp.left:
             temp=temp.left
         print("\nMin: ",temp.data)
+        while temp.right:
+            temp=temp.right
+        print("\nMax: ",temp.data)
 
 b1=BST()
 b1.insert(Node(11))
