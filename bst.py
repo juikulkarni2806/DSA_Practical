@@ -36,12 +36,12 @@ class BST:
             self.inorder(rt.right)
 
 b1=BST()
-b1.insert(Node(100))
+b1.insert(Node(110))
 b1.insert(Node(10))
-b1.insert(Node(450))
-b1.insert(Node(0))
-b1.insert(Node(65))
-b1.insert(Node(300))
+b1.insert(Node(45))
+b1.insert(Node(6))
+b1.insert(Node(650))
+b1.insert(Node(30))
 b1.insert(Node(15))
 b1.inorder(b1.root)
 
