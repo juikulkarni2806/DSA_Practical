@@ -7,6 +7,7 @@ class Node:
 class BST:
     def __init__(self):
         self.root=None
+        self.cnt=0
     def insert(self,new_node):
         if self.root is None:
             self.root=new_node
@@ -33,6 +34,8 @@ class BST:
             return
         else:
             self.inorder(rt.left)
+            if rt.left is None and rt.right is None:
+                self.cnt+=1
             print(rt.data, end=" ")
             self.inorder(rt.right)
 
@@ -132,6 +135,7 @@ if b1.search(243):
 else:
     print("\nNot Found")
 b1.search(1232)
+print(b1.cnt)
 
 
 
